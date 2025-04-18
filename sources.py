@@ -31,3 +31,13 @@ sources.append(
         pollInterval=300,
     )
 )
+
+sources.append(
+    changes.GitPoller(
+        repourl="https://github.com/jessesimpson36/linux-patches.git",
+        branches=True,
+        category="gentoo-git",
+        workdir="linux-patches-branches2",
+        pollinterval=300,
+    )
+)
