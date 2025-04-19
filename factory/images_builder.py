@@ -77,7 +77,7 @@ def test_linux_patches(version, arch):
     factory.addStep(
         steps.GitHub(
             name="Fetching linux-patches",
-            repourl="https://anongit.gentoo.org/git/proj/linux-patches.git",
+            repourl="https://github.com/jessesimpson36/linux-patches.git",
             mode="incremental",
             logEnviron=False,
             workdir="build/linux-patches",
