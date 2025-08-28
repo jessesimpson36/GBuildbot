@@ -26,7 +26,6 @@ sources.append(
     changes.GitPoller(
         repourl="https://anongit.gentoo.org/git/proj/linux-patches.git",
         branches=True,
-        only_tags=True,
         category="gentoo-git",
         workdir="linux-patches-git",
         pollInterval=300,
