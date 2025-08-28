@@ -18,7 +18,7 @@ sources.append(
         branches=True,
         category="gentoo-pull",
         workdir="gentoo-repository",
-        pollinterval=300,
+        pollInterval=300,
     )
 )
 
@@ -28,7 +28,7 @@ sources.append(
         only_tags=True,
         category="gentoo-tags-git",
         workdir="linux-patches-tags",
-        pollinterval=300,
+        pollInterval=300,
     )
 )
 
@@ -38,7 +38,7 @@ sources.append(
         branches=True,
         category="gentoo-git",
         workdir="linux-patches-branches",
-        pollinterval=300,
+        pollInterval=300,
     )
 )
 
@@ -48,6 +48,6 @@ sources.append(
         branches=True,
         category="gentoo-git",
         workdir="linux-patches-branches2",
-        pollinterval=300,
+        pollInterval=300,
     )
 )
