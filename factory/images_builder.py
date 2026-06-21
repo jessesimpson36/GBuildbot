@@ -447,7 +447,6 @@ def test_eclass_changes(arch):
             logEnviron=False,
             mode="incremental",
             workdir="build/gentoo",
-            shallow=50,
         )
     )
     factory.addStep(
